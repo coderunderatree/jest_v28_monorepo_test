@@ -1,0 +1,19 @@
+{
+  "name": "jest_test_v8_coverage",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "workspaces": [
+    "packages/**/*"
+  ],
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.18.2",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0",
+    "jest-cli": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0"
+  }
+}
